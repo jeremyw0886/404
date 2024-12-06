@@ -177,6 +177,7 @@ main section:nth-of-type(2) {
   border: 1px solid #000;
   border-radius: 5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -187,9 +188,16 @@ main section:nth-of-type(2) {
 }
 
 .prog-cards img {
-  height: 100%;
   max-height: 225px;
-  max-width: 300px;
+  object-fit: fill;
+}
+
+.prog-cards img,
+.prog-cards picture {
+  display: block;
+  height: 225px;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -266,6 +274,11 @@ main section:nth-of-type(2) {
   /*End Second Section*/
   
   /*Program Cards*/
+  .prog-cards {
+    margin: 0 1rem;
+    max-width: 398px;
+  }
+
   .prog-cards:last-of-type {
     grid-area: 2/1/3/3;
     grid-column: span 2;

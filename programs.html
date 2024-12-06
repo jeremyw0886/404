@@ -3,17 +3,32 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Programs - 404 Fitness</title>
+    <meta name="description" content="Explore 404 Fitness programs designed for developers. From junior dev to tech lead, find the perfect training path to advance your programming career.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/programs.css">
-    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/programs.min.css">
+    <link rel="stylesheet" href="css/globals.min.css">
     <script src="js/menu.js" defer></script>
   </head>
 
   <body>
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <img src="img/logo.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <picture>
+          <source 
+              srcset="img/logo-40.webp 40w,
+                      img/logo-80.webp 80w,
+                      img/logo-120.webp 120w"
+              sizes="(max-width: 807px) 40px,
+                     (max-width: 1024px) 80px,
+                     120px"
+              type="image/webp">
+          <img src="img/logo.png" 
+              alt="Black dumbbell resting on laptop displaying performance graphs."
+              width="120" 
+              height="120"
+              role="img">
+        </picture>
         <h1>404 Fitness<span aria-label="Subtitle">:<br>
             The Stack</span></h1>
         <ul role="menubar">
@@ -36,7 +51,16 @@
       </section>
       <div class="dropdown-menu" id="dropdown-menu" role="menu" aria-hidden="true">
         <button class="close-menu" id="close-menu" aria-label="Close Menu">
-          <img src="img/X.png" alt="White X symbol on black background." role="img">
+          <picture>
+            <source 
+                srcset="img/x.webp"
+                type="image/webp">
+            <img src="img/x.png" 
+                alt="White X symbol on black background."
+                width="30" 
+                height="27"
+                class="close-menu-icon">
+        </picture>
         </button>
         <h2 class="title">Menu</h2>
         <ul role="menu">
@@ -68,7 +92,22 @@
 
       <section aria-label="Program tiers">
         <article class="prog-cards" role="article">
-          <img src="img/open-source.png" alt="Network graph showing open source project connections with color-coded nodes and collaboration indicators." role="img">
+          <picture>
+            <source 
+                srcset="img/open-source-350.webp 350w,
+                        img/open-source-500.webp 500w,
+                        img/open-source-600.webp 600w"
+                sizes="(max-width: 767px) 350px,
+                       (max-width: 1023px) 500px,
+                       600px"
+                type="image/webp">
+            <img src="img/open-source.png" 
+                alt="Network graph showing open source project connections with color-coded nodes and collaboration indicators."
+                width="600" 
+                height="449"
+                loading="lazy"
+                role="img">
+          </picture>
           <h2 id="open-source">Open Source</h2>
           <h3>Community Edition</h3>
           <ul role="list" aria-label="Open Source features">
@@ -80,7 +119,22 @@
           <button aria-label="Start with Open Source tier">fork repository</button>
         </article>
         <article class="prog-cards" role="article">
-          <img src="img/enterprise.png" alt="Technical infrastructure diagram showing production servers, corporate infrastructure, and enterprise dashboard components." role="img">
+          <picture>
+            <source 
+                srcset="img/enterprise-350.webp 350w,
+                        img/enterprise-500.webp 500w,
+                        img/enterprise-600.webp 600w"
+                sizes="(max-width: 767px) 350px,
+                       (max-width: 1023px) 500px,
+                       600px"
+                type="image/webp">
+            <img src="img/enterprise.png" 
+                alt="Technical infrastructure diagram showing production servers, corporate infrastructure, and enterprise dashboard components."
+                width="600" 
+                height="449"
+                loading="lazy"
+                role="img">
+          </picture>
           <h2 id="enterprise">Enterprise</h2>
           <h3>Production Ready</h3>
           <ul role="list" aria-label="Enterprise features">
@@ -92,7 +146,22 @@
           <button aria-label="Start with Enterprise tier">deploy production</button>
         </article>
         <article class="prog-cards" role="article">
-          <img src="img/custom-build.png" alt="Personalized software development interface showing code editor, databases, and project management tools." role="img">
+          <picture>
+            <source 
+                srcset="img/custom-build-350.webp 350w,
+                        img/custom-build-500.webp 500w,
+                        img/custom-build-600.webp 600w"
+                sizes="(max-width: 767px) 350px,
+                      (max-width: 1023px) 500px,
+                      600px"
+                type="image/webp">
+            <img src="img/custom-build.png" 
+                alt="Personalized software development interface showing code editor, databases, and project management tools."
+                width="600" 
+                height="449"
+                loading="lazy"
+                role="img">
+          </picture>
           <h2 id="custom-build">Custom Build</h2>
           <h3>Personalized Development</h3>
           <ul role="list" aria-label="Custom Build features">
@@ -108,7 +177,19 @@
 
     <footer role="contentinfo">
       <div id="footer-container">
-        <img src="img/logo-240.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <picture>
+          <source 
+              srcset="img/logo-120.webp 120w,
+                      img/logo-240.webp 240w"
+              sizes="(max-width: 807px) 100px,
+                     240px"
+              type="image/webp">
+          <img src="img/logo-240.png" 
+              alt="Black dumbbell resting on laptop displaying performance graphs."
+              width="240" 
+              height="240"
+              role="img">
+        </picture>
         <ul role="list" aria-label="Social media links">
           <li><a href="#" aria-label="Twitter profile">$ git remote add twitter @404fitness</a></li>
           <li><a href="#" aria-label="LinkedIn profile">$ git remote add linkedin 404-fitness</a></li>

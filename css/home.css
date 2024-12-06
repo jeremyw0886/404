@@ -147,10 +147,19 @@ main section:last-of-type {
   width: 100%;
 }
 
+.index-cards img,
+.index-cards picture  {
+  aspect-ratio: 755 / 484;
+  height: auto;
+  max-width: 377px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .index-cards h3 {
   font-size: 1.7rem;
-  margin: 5px 0;
   font-weight: normal;
+  margin: 5px 0;
 }
 
 .index-cards:first-of-type {
@@ -253,6 +262,11 @@ aside {
     height: 350px;
     margin: 0;
     width: 100%;
+  }
+
+  .index-cards img,
+  .index-cards picture {
+    max-width: 500px;
   }
 
   .index-cards:first-child {
@@ -424,14 +438,12 @@ aside {
   /*Index Cards*/
   .index-cards {
     margin: 0 auto;
-    max-width: 377px;
-    width: 100%;
+    max-width: 350px;
   }
 
-  .index-cards img {
-    max-width: 100%;
-    min-height: 250px;
-    object-fit: cover;
+  .index-cards img,
+  .index-cards picture {
+    height: 250px;
   }
 
   .index-cards h3 {

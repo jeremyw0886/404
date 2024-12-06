@@ -1,4 +1,4 @@
-/*Global styles*/
+/*Global styles*/ 
 /*Reset CSS*/
 * {
   box-sizing: border-box;
@@ -16,7 +16,9 @@ body {
   text-align: center;
 }
 
-img {
+img,
+picture {
+  display: block;
   height: auto;
   max-width: 100%;
 }
@@ -47,6 +49,7 @@ header nav {
   width: 100%;
 }
 
+header nav picture,
 header nav img {
   align-items: center;
   display: flex;
@@ -123,6 +126,7 @@ footer {
   width: 100%;
 }
 
+#footer-container picture,
 #footer-container img {
   grid-area: 1/1/2/2;
   height: 100px;
@@ -399,10 +403,14 @@ footer {
     border: none;
     box-shadow: none;
     cursor: pointer;
-    margin-top: 2rem;
+    height: 27px;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 5rem;
+    top: 5rem;
+    width: 30px;
+    z-index: 1001;
   }
 
   .dropdown-menu .title {

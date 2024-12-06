@@ -3,17 +3,32 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>About - 404 Fitness</title>
+    <meta name="description" content="Meet the core developers behind 404 Fitness. Our team of tech experts combines coding expertise with career development to help developers reach their full potential.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/about.min.css">
+    <link rel="stylesheet" href="css/globals.min.css">
     <script src="js/menu.js" defer></script>
   </head>
 
   <body>
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <img src="img/logo.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <picture>
+          <source 
+              srcset="img/logo-40.webp 40w,
+                      img/logo-80.webp 80w,
+                      img/logo-120.webp 120w"
+              sizes="(max-width: 807px) 40px,
+                     (max-width: 1024px) 80px,
+                     120px"
+              type="image/webp">
+          <img src="img/logo.png" 
+              alt="Black dumbbell resting on laptop displaying performance graphs."
+              width="120" 
+              height="120"
+              role="img">
+        </picture>
         <h1>404 Fitness<span aria-label="Subtitle">:<br>
             The Team</span></h1>
         <ul role="menubar">
@@ -33,7 +48,16 @@
       </section>
       <div class="dropdown-menu" id="dropdown-menu" role="menu" aria-hidden="true">
         <button class="close-menu" id="close-menu" aria-label="Close Menu">
-          <img src="img/X.png" alt="White X symbol on black background." role="img">
+          <picture>
+            <source 
+                srcset="img/x.webp"
+                type="image/webp">
+            <img src="img/x.png" 
+                alt="White X symbol on black background."
+                width="30" 
+                height="27"
+                class="close-menu-icon">
+        </picture>
         </button>
         <h2 class="title">Menu</h2>
         <ul role="menu">
@@ -68,25 +92,85 @@
 
       <section aria-label="Team members">
         <article class="team-card" role="article">
-          <img src="img/senior-architect.png" alt="White compass icon on blue-purple gradient circular background." role="img">
+          <picture>
+            <source 
+                srcset="img/senior-architect-80.webp 80w,
+                        img/senior-architect-120.webp 120w,
+                        img/senior-architect-160.webp 160w"
+                sizes="(max-width: 767px) 80px,
+                       (max-width: 1023px) 120px,
+                       160px"
+                type="image/webp">
+            <img src="img/senior-architect.png" 
+                alt="White compass icon on blue-purple gradient circular background."
+                width="160" 
+                height="160"
+                loading="lazy"
+                role="img">
+          </picture>
           <h3 id="senior-architect">Senior Architect</h3>
           <p>Debug Master</p>
           <p>Code Whisperer</p>
         </article>
         <article class="team-card" role="article">
-          <img src="img/frontend-lead.png" alt="Profile of human head with code symbol on pink circular background." role="img">
+          <picture>
+            <source 
+                srcset="img/frontend-lead-80.webp 80w,
+                        img/frontend-lead-120.webp 120w,
+                        img/frontend-lead-160.webp 160w"
+                sizes="(max-width: 767px) 80px,
+                      (max-width: 1023px) 120px,
+                      160px"
+                type="image/webp">
+            <img src="img/frontend-lead.png" 
+                alt="Profile of human head with code symbol on pink circular background."
+                width="160" 
+                height="160"
+                loading="lazy"
+                role="img">
+          </picture>
           <h3 id="frontend-lead">Frontend Lead</h3>
           <p>UI Optimizer</p>
           <p>CSS Battle Survivor</p>
         </article>
         <article class="team-card" role="article">
-          <img src="img/backend-guru.png" alt="A computer monitor icon with gear symbol on blue circular background." role="img">
+          <picture>
+            <source 
+                srcset="img/backend-guru-80.webp 80w,
+                        img/backend-guru-120.webp 120w,
+                        img/backend-guru-160.webp 160w"
+                sizes="(max-width: 767px) 80px,
+                       (max-width: 1023px) 120px,
+                       160px"
+                type="image/webp">
+            <img src="img/backend-guru.png" 
+                alt="A computer monitor icon with gear symbol on blue circular background."
+                width="160" 
+                height="160"
+                loading="lazy"
+                role="img">
+          </picture>
           <h3 id="backend-guru">Backend Guru</h3>
           <p>Database Detective</p>
           <p>API Architect</p>
         </article>
         <article class="team-card" role="article">
-          <img src="img/devops-sage.png" alt="Two interlocking gradient rings forming infinity symbol in blue and orange." role="img">
+          <picture>
+            <source 
+                srcset="img/devops-sage-80.webp 80w,
+                        img/devops-sage-120.webp 120w,
+                        img/devops-sage-160.webp 160w"
+                sizes="(max-width: 767px) 80px,
+                       (max-width: 1023px) 120px,
+                       160px"
+                type="image/webp">
+            <img src="img/devops-sage.png" 
+                alt="Two interlocking gradient rings forming infinity symbol in blue and orange."
+                width="160" 
+                height="160"
+                loading="lazy"
+                role="img">
+          </picture>
           <h3 id="devops-sage">DevOps Sage</h3>
           <p>Pipeline Perfectionist</p>
           <p>Cloud Commander</p>
@@ -124,7 +208,19 @@
 
     <footer role="contentinfo">
       <div id="footer-container">
-        <img src="img/logo-240.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <picture>
+          <source 
+              srcset="img/logo-120.webp 120w,
+                      img/logo-240.webp 240w"
+              sizes="(max-width: 807px) 100px,
+                     240px"
+              type="image/webp">
+          <img src="img/logo-240.png" 
+              alt="Black dumbbell resting on laptop displaying performance graphs."
+              width="240" 
+              height="240"
+              role="img">
+        </picture>
         <ul role="list" aria-label="Social media links">
           <li><a href="#" aria-label="Twitter profile">$ git remote add twitter @404fitness</a></li>
           <li><a href="#" aria-label="LinkedIn profile">$ git remote add linkedin 404-fitness</a></li>
