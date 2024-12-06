@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/globals.css">
+    <script src="js/menu.js" defer></script>
+  </head>
+
+  <body>
+    <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
+        <img src="img/logo.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <h1>404 Fitness<span aria-label="Subtitle">:<br>
+            Debug Your Career</span></h1>
+        <ul role="menubar">
+          <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+          <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+          <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="dropdown-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <section aria-labelledby="hero-title">
+        <h2 id="hero-title">Level up Your<br> Dev Game</h2>
+        <div>
+          <p>Training Programs for Programmers<br> 
+          Who want to Git Gud</p>
+          <button aria-label="Start your learning journey">git commit -m</button>
+          <p>'Start learning Journey'</p>
+        </div>
+      </section>
+      <div class="dropdown-menu" id="dropdown-menu" role="menu" aria-hidden="true">
+        <button class="close-menu" id="close-menu" aria-label="Close Menu">
+          <img src="img/X.png" alt="White X symbol on black background." role="img">
+        </button>
+        <h2 class="title">Menu</h2>
+        <ul role="menu">
+          <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+          <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+          <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main role="main">
+      <section aria-labelledby="requirements-title">
+        <h2 id="requirements-title">System Requirements</h2>
+        <pre aria-label="System requirements details">
+{
+"minimum_experience": "0 years",
+"recommended_experience": "any",
+"motivation_level": "initialized",
+"coffee_dependency": "required"
+}
+        </pre>
+      </section>
+
+      <section aria-label="About our program">
+        <article>
+          <h2 id="debug-future">Debug Your Future</h2>
+          <p>The digital landscape shifts faster than a poorly optimized while loop. At 404 Fitness, we've developed a
+            revolutionary approach to developer career advancement that treats your professional growth like a
+            well-architected system. Our platform isn't just another tutorial repository - it's a complete career
+            compilation tool that transforms junior developers into tech leaders.</p>
+        </article>
+        <article>
+          <h2 id="version-control">Why Your Career Needs Version Control</h2>
+          <p>Remember that time you merged to production without testing? Career moves without strategy are just as risky.
+            Our career optimization algorithms have helped thousands of developers refactor their professional lives.
+            Through systematic approach to skill enhancement, we ensure your career never faces a deadlock.</p>
+        </article>
+      </section>
+
+      <section aria-label="Featured programs">
+        <article class="index-cards" role="article">
+          <img src="img/the-stack.png" alt="Mind map and pyramid chart showing interconnected skills and development framework." role="img">
+          <h3>The Stack</h3>
+          <p>From Hello World to Tech Lead</p>
+        </article>
+        <article class="index-cards" role="article">
+          <img src="img/unit-test.png" alt="Collection of software testing dashboards showing test results, metrics and analytics." role="img">
+          <h3>Unit Test</h3>
+          <p>Assert.equals(currentSkills, DesiredSkills)</p>
+        </article>
+        <article class="index-cards" role="article">
+          <img src="img/memory-management.png" alt="Neon-outlined brain with circuit patterns and CPU/memory performance charts." role="img">
+          <h3>Memory Management</h3>
+          <p>Optimize your mental cache</p>
+        </article>
+      </section>
+      
+      <aside role="complementary" aria-label="Call to action">
+        <h3>git commit -m 'Start Learning Journey'</h3>
+        <p>Free trial: No dependencies required</p>
+        <button aria-label="Read documentation">Read the Docs</button>
+      </aside>
+    </main>
+
+    <footer role="contentinfo">
+      <div id="footer-container">
+        <img src="img/logo-240.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <ul role="list" aria-label="Social media links">
+          <li><a href="#" aria-label="Twitter profile">$ git remote add twitter @404fitness</a></li>
+          <li><a href="#" aria-label="LinkedIn profile">$ git remote add linkedin 404-fitness</a></li>
+          <li><a href="#" aria-label="GitHub repository">$ git remote add github 404-fitness/career</a></li>
+          <li><a href="#" aria-label="Join Discord server">$ join --server 404fitness</a></li>
+        </ul>
+        <pre aria-label="Company motto">
+    //* 404 Fitness: Where developers debug their careers
+      *    and optimize their professional runtime.
+      * No dependency hell, just pure career development.
+      *//
+        </pre>
+        <nav role="navigation" aria-label="Footer navigation">
+          <p>Quick Links</p>
+          <ul role="menu">
+            <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+            <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+            <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+          </ul>
+        </nav>
+        <section aria-labelledby="newsletter-signup">
+          <h2 id="newsletter-signup">Subscribe to /dev/life</h2>
+          <form role="form" aria-label="Newsletter signup">
+            <label for="email">"your@email"</label>
+            <input type="email" id="email" name="email" placeholder='"your@email"' aria-label="Enter your email address">
+            <br>
+            <button type="submit" aria-label="Subscribe to newsletter">"subscribe --force"</button>
+          </form>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

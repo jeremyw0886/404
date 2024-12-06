@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/globals.css">
+    <script src="js/menu.js" defer></script>
+  </head>
+
+  <body>
+    <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
+        <img src="img/logo.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <h1>404 Fitness<span aria-label="Subtitle">:<br>
+            The Team</span></h1>
+        <ul role="menubar">
+          <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+          <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+          <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="dropdown-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <section aria-labelledby="welcome-heading">
+        <h2 id="welcome-heading">"hello world"</h2>
+        <button aria-label="Installation success message">"npm install success"</button>
+      </section>
+      <div class="dropdown-menu" id="dropdown-menu" role="menu" aria-hidden="true">
+        <button class="close-menu" id="close-menu" aria-label="Close Menu">
+          <img src="img/X.png" alt="White X symbol on black background." role="img">
+        </button>
+        <h2 class="title">Menu</h2>
+        <ul role="menu">
+          <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+          <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+          <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main role="main">
+      <section aria-label="Company introduction">
+        <article>
+          <h2 id="core-developers">The Core Developers</h2>
+          <p>Born from the chaos of midnight deployments and Monday morning hot fixes, 404 Fitness was established by developers who believed career growth shouldn't feel like debugging minified code. Our founding team has survived everything from the dot-com bubble to the AI revolution, and we're here to share our exception handling strategies.</p>
+        </article>
+        <article>
+          <h2 id="mission">Our Mission</h2>
+          <pre aria-label="Company mission and values">
+{
+  "mission": "Optimize developer potential",
+  "vision": "Debug careers", not just code",
+  "values": [
+      "Clean code practices",
+      "Continuous learning",
+      "Error-driven growth"
+  ]
+}        
+          </pre>
+        </article>
+      </section>
+
+      <section aria-label="Team members">
+        <article class="team-card" role="article">
+          <img src="img/senior-architect.png" alt="White compass icon on blue-purple gradient circular background." role="img">
+          <h3 id="senior-architect">Senior Architect</h3>
+          <p>Debug Master</p>
+          <p>Code Whisperer</p>
+        </article>
+        <article class="team-card" role="article">
+          <img src="img/frontend-lead.png" alt="Profile of human head with code symbol on pink circular background." role="img">
+          <h3 id="frontend-lead">Frontend Lead</h3>
+          <p>UI Optimizer</p>
+          <p>CSS Battle Survivor</p>
+        </article>
+        <article class="team-card" role="article">
+          <img src="img/backend-guru.png" alt="A computer monitor icon with gear symbol on blue circular background." role="img">
+          <h3 id="backend-guru">Backend Guru</h3>
+          <p>Database Detective</p>
+          <p>API Architect</p>
+        </article>
+        <article class="team-card" role="article">
+          <img src="img/devops-sage.png" alt="Two interlocking gradient rings forming infinity symbol in blue and orange." role="img">
+          <h3 id="devops-sage">DevOps Sage</h3>
+          <p>Pipeline Perfectionist</p>
+          <p>Cloud Commander</p>
+        </article>
+      </section>
+
+      <section aria-label="Company culture">
+        <article>
+          <pre aria-label="Company environment details">
+{
+  "location": "Distributed across time zones",
+  "culture": "Async-frist",
+  "coffee_machines": "Redundant clusters",
+  "rubber_ducks": "Load balanced",
+  "environment": [
+      "ide": "VS Code (obciously)",
+      "meetings": "When git push fails",
+      "dress_code": "Function over fashion"
+  ]
+}        
+          </pre>
+        </article>
+        <article>
+          <h2 id="community">Community-Driven Development</h2>
+          <p>Join a network of developers who understand that the best error messages are the ones we learn from. Our community features:</p>
+          <ul role="list" aria-label="Community features">
+            <li>Peer Code (and career) reviews</li>
+            <li>Mentorship matching algorithms</li>
+            <li>Debug-and-learn sessions</li>
+            <li>Friday virtual coffee.catch()</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div id="footer-container">
+        <img src="img/logo-240.png" alt="Black dumbbell resting on laptop displaying performance graphs." role="img">
+        <ul role="list" aria-label="Social media links">
+          <li><a href="#" aria-label="Twitter profile">$ git remote add twitter @404fitness</a></li>
+          <li><a href="#" aria-label="LinkedIn profile">$ git remote add linkedin 404-fitness</a></li>
+          <li><a href="#" aria-label="GitHub repository">$ git remote add github 404-fitness/career</a></li>
+          <li><a href="#" aria-label="Join Discord server">$ join --server 404fitness</a></li>
+        </ul>
+        <pre aria-label="Company motto">
+    //* 404 Fitness: Where developers debug their careers
+      *    and optimize their professional runtime.
+      * No dependency hell, just pure career development.
+      *//
+        </pre>
+        <nav role="navigation" aria-label="Footer navigation">
+          <p>Quick Links</p>
+          <ul role="menu">
+            <li role="none"><a href="index.html" role="menuitem">./home</a></li>
+            <li role="none"><a href="programs.html" role="menuitem">./stack</a></li>
+            <li role="none"><a href="about.html" role="menuitem">./team</a></li>
+          </ul>
+        </nav>
+        <section aria-labelledby="newsletter-signup">
+          <h2 id="newsletter-signup">Subscribe to /dev/life</h2>
+          <form role="form" aria-label="Newsletter signup">
+            <label for="email">"your@email"</label>
+            <input type="email" id="email" name="email" placeholder='"your@email"' aria-label="Enter your email address">
+            <br>
+            <button type="submit" aria-label="Subscribe to newsletter">"subscribe --force"</button>
+          </form>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
